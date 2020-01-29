@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.T{
+  font-family: 'Ubuntu', sans-serif;
+}
+.t{
+  font-family: 'Slabo 27px', serif;
+}
+img{
+  width: 100%!important;
+  height: 100%;
+}
+.img-wide-box{
+  height: 300px;
+  overflow: hidden;
+}
+
+.profile{
+  overflow: hidden;
+  margin-top: 20px;
+}
+.centerThis{
+  overflow: hidden;
+  width: 90%;
+  margin: auto;
+}
+.img-box{
+  width: 300px;
+  height: 250px;
+  float: left;
+}
+.profile-info{
+  width: 50%;
+  float: left;
+  padding: 0 5%;
+  font-size: 120%;
+}
+.profile-name{
+  display: block;
+}
+
+.profile-i{
+  text-align: center;
+  font-size: 85%;
+}
+.profile-i i{
+  margin-left: 5px;
+  font-size: 85%;
+}
+.profile-i span{
+  margin-left: 5px;
+  display: inline-block;
+}
+.profile-btn{
+  background: #1fb800;
+  width: 200px;
+  margin: auto;
+  text-align: center;
+  margin-top: 10px;
+  border-radius: 3px;
+  color: #fff;
+  padding: 8px 10px;
+}
+
+ul li{
+  list-style: none;
+  font-weight: bold;
+}
+ul li span{
+  font-weight: lighter;
+}
+.tx{
+  overflow: hidden;
+}
+.tx .card{
+  float: left;
+  margin-left: 3%;
+}
+.card-title{
+  text-transform: uppercase;
+}
+
+.pov ul li,.wrk ul li{
+  font-weight: lighter;
+}
+.wrk ul li{
+  list-style: circle;
+  display: block;
+  width: 90%;
+  margin: auto;
+}
+.sponsor-btn{
+  text-align: center;
+}
+.sponsor-btn input{
+  background: #000;
+  border-radius: 2px;
+  border-color: transparent;
+  padding: 8px 5px;
+  color: snow;
+  width: 150px;
+}
