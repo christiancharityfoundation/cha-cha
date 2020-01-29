@@ -1,0 +1,31 @@
+@media screen and (min-width: 0)
+and (max-width: 739px){
+  .img-box,.profile-info,.profile-i{
+    float: none;
+    margin: auto;
+  }
+.profile-info{
+  width: 90%;
+}
+.profile-name{
+  text-align: center;
+  font-size: 130%;
+}
+.centerThis{
+  width: 100%;
+}
+}
+@media screen and (min-width: 580px)
+and (max-width: 1009px){
+  .tx .card{
+    width: 47%!important;
+  }
+}
+@media screen and (max-width: 580px)
+and (min-width: 0){
+  .tx .card{
+    width: 95%!important;
+    margin: auto;
+    float: none!important;
+  }
+}

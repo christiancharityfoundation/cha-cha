@@ -1,0 +1,11 @@
+.white-txt{
+  color: snow!important;
+}
+
+@media screen and (min-width: 500px)
+and (max-width: 80000px){
+  .form-resp{
+    width: 480px;
+    margin: auto;
+  }
+}
